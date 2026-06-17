@@ -1,8 +1,8 @@
-const  btn = document.querySelector("#btn");
-const num = document.querySelector("#num");
-const divDivisores = document.querySelector("#div-divisores")
+const  btnNum = document.querySelector('#btn-num')
+const inputNum = document.querySelector('#num')
+const divDivisores = document.querySelector('#div-divisores')
 
-btn.addEventListener('click', (evt) =>{
+btnNum.addEventListener('click', (evt) =>{
     let numDigitado = Number(inputNum.value)
 
     for(i = 0; i <= numDigitado; i++){
