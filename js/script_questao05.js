@@ -20,9 +20,6 @@ formPessoa.addEventListener('submit', (evt)=>{
     //contar o numero de pessoas registradas
     contPessoas++
 
-    console.log(contPessoas)
-    console.log(pessoa.idade, pessoa.sexo, pessoa.renda)
-
     //criando o objeto data form
     const dadosForm = new FormData(formPessoa)
 
