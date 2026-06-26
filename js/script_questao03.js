@@ -19,11 +19,11 @@ btnVerifica.addEventListener('click', (evt) => {
 
     cont12++
 
-    if (cont12 == 4) {
+    if (cont12 == 2) {
         inpuIdade.setAttribute('disabled', 'disabled')
         inputPeso.setAttribute('disabled', 'disabled')
 
-        divResultado.innerHTML = `TOTAL DE PESSOA QUE PODEM DOAR ${contPode} <br> TOTAL DE PESSOA QUE NÃO PODEM DOAR ${contNaoPode} `
+        divResultado.innerHTML = `TOTAL DE PESSOAS QUE PODEM DOAR ${contPode} <br> TOTAL DE PESSOAS QUE NÃO PODEM DOAR ${contNaoPode} `
     }
 
     inpuIdade.value = ''
